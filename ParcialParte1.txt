@@ -1,0 +1,45 @@
+
+Parcial – Sistemas Operativos Avanzados
+Fecha: 09/11/2024 
+Enunciado 
+
+1- Teniendo en cuenta las capas del modelo OSI, mencionar que protocolos interactúan en las: 
+•	Capa de Aplicación: en este nivel se integran los protocolos incluidos en la capa de transporte y se le suman los siguientes protocolos:
+o	FTP (File transfer Protocol)
+o	HTTP (Hipertext Transfer Protocol)
+o	SMTP (Simple Mail Transfer Protocol)
+o	DNS (Domain Name Server)
+o	NFS (Network File System)
+
+•	Capa de Transporte: los protocolos que se integran en la capa de transporte para facilitar la comunicación de punto a punto de un programa a una aplicación, son:
+o	TCP (Transmission Control Protocol)
+o	UDP (User Datagram Protocol)
+2- Detallar las clases de IP detallando la cantidad de bit destinados a la parte de Red y Host, para cada clase. 
+•	Clase A: se asignan 8 bits para la red y 24 bits para el Host. Su diseño esta basado para albergar 16 millones de direcciones Host.
+•	Clase B: se asignan 16 bits para la red y 16 bits para el Host. Su diseño esta basado para un uso mas relacionado entre moderado y grande por la capacidad de albergar 65000 direcciones Host.
+•	Clase C: se asignan 24 bits para la red y 8 bits para el Host. Es una de las más antiguas disponibles y su diseño tiene un tipo de aplicación mas domestica o de uso en ambientes pequeños debido a la capacidad de albergar 254 direcciones como Host.
+3- Mencionar tres tipos de componentes que pueden conectar en una red PAN. 
+•	Los componentes que se pueden conectar a una red de área personal (PAN), pueden ser:
+o	Teléfonos móviles
+o	Computadoras portátiles o de escritorio
+o	Impresoras
+o	Televisores de tipo SMART
+4- Responder: 
+•	A que red wifi estas conectado: estoy conectado a una red LAN de topología estrella, mediante cable RJ45 al conector Ethernal de la Notebook.
+•	A que rango de IP pertenece: Dirección IPv4: 192.168.7.105; de acuerdo al tipo de red se la clasifica como clase C debido a que el primer octeto se encuentra comprendido entre 192 – 223. Máscara de subred: 255.255.255.0; otro elemento que permite la distinción de la clase es la máscara de subred por defecto las redes clases C poseen una máscara con la conformación de 255.255.255.0.
+7- Mencionar los recursos básicos que debes configurar en la instalación de una máquina virtual. 
+•	los recursos básicos que se deben configurar a la hora de instalar una máquina virtual son: el tamaño de la memoria RAM, la cantidad de núcleos del procesador, el espacio del disco rígido
+8- Mencionar los servicios que podemos utilizar de la Nube: PaaS. 
+	Los servicios que se pueden encontrar en la nube PaaS son:
+1.	Azure App Service
+2.	Google App Engine
+3.	CloudFountry
+Los mismo son servicio que almacenan nuestros desarrollos y nos permiten ejecutarlos, pero no asi administrar la infraestructura, es decir no se puede modificar el almacenamiento, el tipo de sistema operativo entre otras.
+9- Definir: 
+a.	Rama: es una bifurcación que posee un repositorio, en ella cada desarrollador puede trabajar de manera autónoma pero siempre utilizando la última versión del trabajo para evitar posibles fallas de ejecución. Una vez que cada desarrollador genera sus avances debe enviar esa rama al repositorio remoto para que el encargado del repositorio pueda aprobar o no los cambios y que asi se suba el proyecto a la red. 
+b.	Repositorio: es un directorio ya sea local o en la nube, en el cual se albergarán los distintos archivos o documentos que serán parte del proyecto. 
+c.	Mencionas las tres áreas de trabajo que utiliza el gitbash para trabajar. 
+a.	Área de preparación
+b.	Área de modificación
+c.	Área de confirmación 
+
